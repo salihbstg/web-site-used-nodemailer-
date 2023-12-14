@@ -1,0 +1,19 @@
+.hero h1::first-letter{
+font-size: 90px;
+}
+.hero-img{
+    width: 40%;
+    
+}
+.hero{
+    gap: 384px;
+}
+@media only screen and (max-width:1350px) {
+    .hero{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .hero-img{
+        width: 70%;
+    }
+}

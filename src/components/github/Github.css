@@ -1,0 +1,24 @@
+.git-wrapper{
+   background: linear-gradient(90deg,#4f5a65,#2a5a7f,#0285a0);
+   background-size: 200%;
+   animation: git-anim 11s linear infinite;
+}
+@keyframes git-anim {
+   0%{
+      opacity: 0.9;
+      background-position:0% 0 ;
+   }
+   25%{
+      background-position: 100% 0;
+   }
+   50%{
+      background-position: 100% 100%;
+   }
+   75%{
+      background-position: 100% 0%;
+   }
+   100%{
+      opacity: 1;
+      background-position: 0 0 ;
+   }
+}

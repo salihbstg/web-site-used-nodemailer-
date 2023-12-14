@@ -1,0 +1,31 @@
+.about-text p{
+    margin: 8px 0 8px 0;
+    font-size: 18px;
+}
+.about-text h3{
+    text-shadow: 1px 5px 10px black;
+}
+.image-anim{
+    background:linear-gradient(var(--rotate),#000,#808080,#fff);
+    padding: 3px;
+    animation: spin 2.5s linear infinite;
+}
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+  }
+  
+  @keyframes spin {
+    0% {
+      --rotate: 0deg;
+    }
+    100% {
+      --rotate: 360deg;
+    }
+  }
+  @media only screen and (max-width:1350px) {
+    .about-images{
+      flex-direction: column;
+    }
+  }

@@ -1,0 +1,22 @@
+footer{
+    background: linear-gradient(90deg,#555,#000,#222);
+    background-size: 150%;
+    animation: footer-anim 10s linear infinite;
+}
+@keyframes footer-anim {
+    0%{
+        background-position: 50% 0;
+    }
+    25%{
+        background-position: 100% 0;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    75%{
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 50% 0;
+    }
+}
